@@ -18,5 +18,5 @@ build: clean
 	@echo "Building..."
 	@if [[ ! -d "${BUILD}" ]]; then mkdir -p "${BUILD}"; fi
 	@osacompile -x -o "${APP_DST}" "${SRC}"
-	#@cp "${INFO_SRC}" "${APP_DST}/Contents"
+	@cp "${INFO_SRC}" "${APP_DST}/Contents"
 
