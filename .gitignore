@@ -1,1 +1,4 @@
 build/*
+# Script Debugger temporary files
+*\(Autosaved\).\*
+*\(automatisch bewaard\).\*
