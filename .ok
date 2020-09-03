@@ -1,0 +1,5 @@
+# Work with logs
+log: tail -n ${1:-100} ~/Library/Logs/com.catsdeep/Pashua.log # Show last 100 lines
+open ~/Library/Logs/com.catsdeep/Pashua.log # Opens the log in Console.app
+open ~/Library/Logs/com.catsdeep/ # Opens the folder in Finder.app
+cycle: mv ~/Library/Logs/com.catsdeep/Pashua.log ~/Library/Logs/com.catsdeep/Pashua_$(date '+%Y-%m-%dT%H.	%M.	%S').log
